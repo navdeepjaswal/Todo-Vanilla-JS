@@ -1,0 +1,16 @@
+List
+- Footer
+    - Items remaining
+    - All, Active, Completed
+    - Clear Completed
+- Set new hero image and set a color filter to purple
+- Add a max-height to the list, should scroll after exceeding the height
+- Custom checkbox design (Reference stackoverflow, codepen, etc)
+- Drag and drop JavaScript library
+
+
+Good to haves (look at these when main changes are finished)
+- add a shake animation to the input if a blank field is passed.
+- add typing transition if possible
+- add a diagonal div for the section. should be the same color as the rest of the html page to 
+give the effect that the image is cut in half. you can change the image if you want.

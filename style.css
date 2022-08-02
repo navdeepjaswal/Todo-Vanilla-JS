@@ -1,0 +1,206 @@
+body {
+    background-color: rgb(245, 245, 236) !important;
+}
+
+.error {
+    position: relative;
+    animation: shake .1s linear;
+    animation-iteration-count: 3;
+}
+
+@keyframes shake {
+    0% {
+        left: -5px;
+    }
+    100% {
+        right: -5px;
+    }
+}
+
+.hero-img {
+    position: absolute;
+    top: 0;
+}
+
+#workImg {
+    object-fit: cover;
+    width: 100vw;
+    height: 40vh;
+    object-position: 50% 55%;
+}
+
+#tint {
+    position: absolute;
+    top: 0;
+    background: linear-gradient(45deg, #f800ff, #1a0bff);
+    width: 100vw;
+    height: 40vh;
+    opacity: 0.35;
+}
+
+.todo-section {
+    margin-top: 12em;
+}
+
+form button {
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+.inputForm {
+    background-color: white;
+    border-radius: 20px;
+    margin: 0 10px;
+}
+
+input[type='checkbox'] {
+    margin: auto;
+    min-width: 40px;
+    width: 40px;
+    height: 21px;
+    accent-color: #65388a;
+}
+
+.input {
+    width: 100%;
+    padding: 10px 15px;
+    font-family: system-ui;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: 300;
+    border: 0px;
+    border-radius: 20px;
+}
+
+.input:focus-visible,
+.input:active {
+    outline: none;
+}
+
+.parent {
+    position: relative;
+    /* top: 185px; */
+    margin: 0 auto;
+    /* padding: 10px; */
+    max-width: 580px;
+}
+
+.fa-plus {
+    font-size: 1.5rem !important;
+    padding: 0.73rem;
+    color: #dd09dd;
+}
+
+.fa-plus:hover {
+    transition: 0.2s;
+    opacity: 0.7;
+}
+
+.fa-times {
+    font-weight: 200;
+    color: #a39a9acc !important;
+    font-size: 20px;
+}
+
+.filter-link {
+    text-decoration: none;
+    color: gray;
+}
+
+.filter-selected {
+    color: magenta;
+}
+
+.filter-link:hover {
+    cursor: pointer;
+    color: magenta;
+}
+
+.fa-plus:hover,
+.checkbox:hover,
+.fa-times {
+    cursor: pointer;
+    color: magenta;
+}
+
+.parent h1 {
+    letter-spacing: 20px;
+    font-size: 65px;
+    font-weight: 800;
+    color: white;
+    margin-left: 10px;
+}
+
+.parent input,
+.card ul li {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(61, 58, 58);
+}
+
+.card {
+    position: relative;
+    top: 2rem;
+    font-size: .9rem;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 0.1em;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.list-group-item {
+    padding: 1rem !important;
+}
+
+.line-through {
+    text-decoration: #65388a 1px line-through;
+    color: #aba8a8;
+}
+
+footer {
+    font-family: 'Poppins', sans-serif;
+    padding: 15px 0px;
+    font-size: 14px;
+    margin: 0;
+    color: gray;
+}
+
+footer p:focus {
+    color: red;
+}
+
+.list-item-div {
+    gap: 2em;
+    align-items: center;
+}
+
+.name-div {
+    gap: 2em;
+}
+
+.remove-btn {
+    margin-left: auto;
+}
+
+@media screen and (max-width: 550px) {
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+/* 
+.diagonalDiv {
+    background-image: linear-gradient(45deg, #6303B1, #ff0099);
+    transform: skewY(-11deg);
+}
+
+.content {
+    max-width: 50em;
+    margin: 0 auto;
+} *
